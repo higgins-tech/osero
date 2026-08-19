@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Osero App | Your stablecoin savings account</title>
+  <script src="assets/sources.js"></script>
+  <script src="assets/app-bundle_msxten37.js"></script>
+  <link rel="icon" href="img/smallogo.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header class="topbar">
+    <div class="ph-block logo-ph"><img src="img/logo.png" alt=""></div>
+
+    <div class="header-right">
+      <div class="menu-wrap">
+        <input type="checkbox" id="menu-toggle" class="visually-hidden-toggle">
+        <label for="menu-toggle" class="icon-btn" aria-label="Open menu">⋮</label>
+        <label for="menu-toggle" class="menu-backdrop" aria-hidden="true"></label>
+
+        <div class="dropdown-menu">
+          <div class="sheet-handle"></div>
+
+          <p class="menu-section-label">Theme</p>
+          <div class="menu-item"><span class="glyph">🖥</span> System <span class="check">✓</span></div>
+          <div class="menu-item"><span class="glyph">☀</span> Light</div>
+          <div class="menu-item"><span class="glyph">☾</span> Dark</div>
+
+          <div class="menu-divider"></div>
+
+          <p class="menu-section-label">More</p>
+          <div class="menu-item"><span class="glyph">📄</span> Docs <span class="ext">↗</span></div>
+          <div class="menu-item"><span class="glyph">💬</span> Share feedback <span class="ext">↗</span></div>
+
+          <div class="menu-divider"></div>
+
+          <p class="menu-section-label">Legals</p>
+          <div class="menu-item"><span class="glyph">📄</span> Terms of Service</div>
+          <div class="menu-item"><span class="glyph">📄</span> Privacy Policy</div>
+
+          <div class="menu-divider"></div>
+
+          <div class="menu-socials">
+            <span>🌐</span><span>✈</span><span>𝕏</span><span>in</span>
+          </div>
+          <p class="menu-footer">© 2026 Osero &nbsp;•&nbsp; ver. 0.1.0</p>
+        </div>
+      </div>
+
+      <div class="connect-group">
+        <div class="connect-btn connect-button">Connect</div>
+        <div class="connect-chevron">⌄</div>
+      </div>
+    </div>
+  </header>
+
+  <main class="app-grid">
+
+    <!-- ===================== LEFT CARD ===================== -->
+    <section class="card savings-card">
+      <div class="savings-head">
+        <span class="savings-label">Stablecoin Savings</span>
+        <div class="coin-stack">
+          <span class="coin-ic coin-a"><img src="img/usdc.png" alt=""></span>
+          <span class="coin-ic coin-b"><img src="img/usdt.png" alt=""></span>
+          <span class="coin-ic coin-c"><img src="img/usds.png" alt=""></span>
+          <span class="coin-more">+10</span>
+          <span class="coin-chevrons">»</span>
+          <span class="coin-sky"><img src="img/susds.png" alt=""></span>
+        </div>
+      </div>
+
+      <div class="apy-row">
+        <span class="apy-value">3.52%</span><span class="apy-unit">APY</span>
+      </div>
+      <p class="savings-desc">Deposit any stablecoin and start earning instantly.</p>
+
+      <div class="carousel">
+        <input type="radio" name="carousel" id="c1" class="visually-hidden-toggle" checked>
+        <input type="radio" name="carousel" id="c2" class="visually-hidden-toggle">
+        <input type="radio" name="carousel" id="c3" class="visually-hidden-toggle">
+        <input type="radio" name="carousel" id="c4" class="visually-hidden-toggle">
+
+        <div class="carousel-track">
+          <div class="slide">
+            <div class="ph-block slide-icon"><img src="img/balance.png" alt=""></div>
+            <div>
+              <p class="slide-title">Your balance keeps growing</p>
+              <p class="slide-desc">Access yield backed by $9.92B in diversified, transparent collateral.</p>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="ph-block slide-icon"><img src="img/withdraw.png" alt=""></div>
+            <div>
+              <p class="slide-title">Withdraw anytime</p>
+              <p class="slide-desc">No lock-ups. Access your funds instantly whenever you need.</p>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="ph-block slide-icon"><img src="img/deposit.png" alt=""></div>
+            <div>
+              <p class="slide-title">Deposit any stablecoin</p>
+              <p class="slide-desc">Use the stablecoins you already hold. Automatic conversions happen behind the
+                scenes.</p>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="ph-block slide-icon"><img src="img/protection.png" alt=""></div>
+            <div>
+              <p class="slide-title">Built-in protection</p>
+              <p class="slide-desc">An additional $181.45M in risk capital helps protect your deposits.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-dots">
+          <label class="dot" for="c1"></label>
+          <label class="dot" for="c2"></label>
+          <label class="dot" for="c3"></label>
+          <label class="dot" for="c4"></label>
+        </div>
+      </div>
+
+      <div class="powered-row">
+        <span>POWERED BY</span>
+        <div class="ph-block pw-icon"></div>
+        <strong>Sky Savings Rate</strong>
+        <span style="margin-left:auto;"></span>
+        <span class="stat-label">TVL&nbsp;ⓘ</span><span class="stat-value">$4.9B</span>
+        <span class="stat-label">Users&nbsp;ⓘ</span><span class="stat-value">290K</span>
+      </div>
+
+      <div class="cta-row">
+        <div class="btn-wallet">Connect Wallet</div>
+        <span class="cta-or">or</span>
+        <div class="btn-playground"><span>⌂</span> Try in Playground</div>
+      </div>
+    </section>
+
+    <!-- ===================== RIGHT CARD ===================== -->
+    <section class="card stats-card">
+      <input type="radio" name="tabs" id="t1" class="visually-hidden-toggle" checked>
+      <input type="radio" name="tabs" id="t2" class="visually-hidden-toggle">
+      <input type="radio" name="tabs" id="t3" class="visually-hidden-toggle">
+      <input type="radio" name="tabs" id="t4" class="visually-hidden-toggle">
+
+      <nav class="tabs">
+        <label class="tab-label" for="t1">Backing</label>
+        <label class="tab-label" for="t2">Liquidity</label>
+        <label class="tab-label" for="t3">Protection</label>
+        <label class="tab-label" for="t4">Simulation</label>
+      </nav>
+
+      <div class="panels">
+
+        <!-- ---------- Backing ---------- -->
+        <div class="tab-panel" id="panel-1">
+          <p class="panel-label">Backing Assets <span class="info">i</span></p>
+          <p class="panel-big">$9.92B</p>
+
+          <div class="backing-grid">
+            <div class="backing-col left">
+              <div class="stat-box tall">
+                <div class="stat-name"><span class="bullet"></span>Stablecoins</div>
+                <div class="stat-pct">49.33%</div>
+              </div>
+              <div class="row">
+                <div class="stat-box">
+                  <div class="stat-name"><span class="bullet"></span>Short Duration Treasury Bills</div>
+                  <div class="stat-pct">15.85%</div>
+                </div>
+                <div class="stat-box">
+                  <div class="stat-name"><span class="bullet"></span>OTC Crypto Lending</div>
+                  <div class="stat-pct">10.18%</div>
+                </div>
+              </div>
+            </div>
+            <div class="backing-col right">
+              <div class="stat-box tall">
+                <div class="stat-name"><span class="bullet"></span>Onchain Crypto Lending</div>
+                <div class="stat-pct">18.24%</div>
+              </div>
+              <div class="row">
+                <div class="stat-box">
+                  <div class="stat-name"><span class="bullet"></span>AAA Corporate Debt</div>
+                  <div class="stat-pct">4.98%</div>
+                </div>
+                <div class="stat-box">
+                  <div class="stat-name"><span class="bullet"></span>Others</div>
+                  <div class="stat-pct">1.42%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ---------- Liquidity ---------- -->
+        <div class="tab-panel" id="panel-2">
+          <p class="panel-label">Actively Stabilizing Collateral <span class="info">i</span></p>
+          <p class="panel-big">$5.29B</p>
+
+          <div class="liquidity-grid">
+            <div class="stat-box tall">
+              <div class="stat-name">
+                <div class="ph-block stat-logo"><img src="img/sky.png" alt=""></div>Sky
+              </div>
+              <div class="stat-pct">78.11%</div>
+            </div>
+            <div class="row">
+              <div class="stat-box">
+                <div class="stat-name">
+                  <div class="ph-block stat-logo"><img src="img/uniswap.png" alt=""></div>Uniswap
+                </div>
+                <div class="stat-pct">3.31%</div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-name">
+                  <div class="ph-block stat-logo"><img src="img/spark.png" alt=""></div>Sparklend
+                </div>
+                <div class="stat-pct">2.94%</div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="stat-box">
+                <div class="stat-name">
+                  <div class="ph-block stat-logo"><img src="img/Galaxy.png" alt=""></div>Galaxy
+                </div>
+                <div class="stat-pct">5.75%</div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-name">
+                  <div class="ph-block stat-logo"><img src="img/paypal.png" alt=""></div>Paypal
+                </div>
+                <div class="stat-pct">4.52%</div>
+              </div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-name">
+                <div class="ph-block stat-logo"><img src="img/morpho.png" alt=""></div>Morpho
+              </div>
+              <div class="stat-pct">4.29%</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-name"><span class="bullet"></span>Others</div>
+              <div class="stat-pct">1.08%</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ---------- Protection ---------- -->
+        <div class="tab-panel" id="panel-3">
+          <p class="panel-label">Capital Protecting Deposits <span class="info">i</span></p>
+          <p class="panel-big">$181.45M</p>
+
+          <div class="protection-grid">
+            <div class="row-2">
+              <div class="stat-box">
+                <div class="stat-name">
+                  <div class="ph-block stat-logo"><img src="img/spark.png" alt=""></div>Spark
+                </div>
+                <div class="stat-pct">24.93%</div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-name">
+                  <div class="ph-block stat-logo"><img src="img/sky.png" alt=""></div>Ozone
+                </div>
+                <div class="stat-pct">13.78%</div>
+              </div>
+            </div>
+            <div class="row-3">
+              <div class="stat-box">
+                <div class="stat-name">
+                  <div class="ph-block stat-logo"><img src="img/grove.png" alt=""></div>Grove
+                </div>
+                <div class="stat-pct">13.40%</div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-name">
+                  <div class="ph-block stat-logo"><img src="img/obex.png" alt=""></div>Obex
+                </div>
+                <div class="stat-pct">13.09%</div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-name">
+                  <div class="ph-block stat-logo"><img src="img/sky.png" alt=""></div>CEA 1
+                </div>
+                <div class="stat-pct">11.02%</div>
+              </div>
+            </div>
+            <div class="row-4">
+              <div class="stat-box">
+                <div class="stat-name">
+                  <div class="ph-block stat-logo"><img src="img/sky.png" alt=""></div>Skybase
+                </div>
+                <div class="stat-pct">6.58%</div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-name">
+                  <div class="ph-block stat-logo"><img src="img/sky.png" alt=""></div>Amatsu
+                </div>
+                <div class="stat-pct">6.06%</div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-name">
+                  <div class="ph-block stat-logo"><img src="img/smallogo.png" alt=""></div>Osero
+                </div>
+                <div class="stat-pct">5.51%</div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-name">
+                  <div class="ph-block stat-logo"><img src="img/keel.png" alt=""></div>Keel
+                </div>
+                <div class="stat-pct">5.62%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ---------- Simulation ---------- -->
+        <div class="tab-panel" id="panel-4">
+          <div class="sim-top">
+            <span class="lbl">One-time deposit today</span>
+            <span class="val">$1,000</span>
+          </div>
+          <div class="sim-row">
+            <div class="sim-box">
+              <p class="lbl">Earned over 11Y</p>
+              <p class="val">$463.08</p>
+            </div>
+            <div class="sim-box">
+              <p class="lbl">Balance in 11Y</p>
+              <p class="val">$1,463.08</p>
+            </div>
+          </div>
+
+          <div class="chart-wrap">
+            <div class="chart-axis">
+              <span>$1,800</span><span>$1,600</span><span>$1,400</span><span>$1,200</span>
+            </div>
+            <div class="chart-bars" aria-hidden="true">
+              <div class="bar" style="height:28%"></div>
+              <div class="bar" style="height:31%"></div>
+              <div class="bar" style="height:34%"></div>
+              <div class="bar" style="height:37%"></div>
+              <div class="bar" style="height:40%"></div>
+              <div class="bar" style="height:43%"></div>
+              <div class="bar" style="height:46%"></div>
+              <div class="bar" style="height:49%"></div>
+              <div class="bar" style="height:52%"></div>
+              <div class="bar" style="height:55%"></div>
+              <div class="bar active" style="height:58%"></div>
+              <div class="bar" style="height:62%"></div>
+              <div class="bar" style="height:66%"></div>
+              <div class="bar" style="height:70%"></div>
+              <div class="bar" style="height:74%"></div>
+              <div class="bar" style="height:79%"></div>
+              <div class="bar" style="height:84%"></div>
+              <div class="bar" style="height:90%"></div>
+              <div class="bar" style="height:96%"></div>
+              <div class="bar" style="height:100%"></div>
+            </div>
+          </div>
+          <p class="chart-x-label">2037</p>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+</body>
+
+</html>
